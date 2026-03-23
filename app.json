@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "FoodSpark Merchant",
+    "slug": "foodspark-merchant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "foodspark-merchant",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.foodspark.merchant" },
+    "android": { "package": "com.foodspark.merchant" },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": true }
+  }
+}
